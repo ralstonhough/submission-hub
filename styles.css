@@ -1,0 +1,33 @@
+#mainHeading{
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0;
+    position:fixed;
+    left: 7.5vw;
+    top:7.5vw;
+    font-size: 7vw;
+}
+html{
+    cursor:none;
+}
+
+ul{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 3.5vw;
+    margin: 0;
+    position:fixed;
+    top:20vw;
+    left:7.5vw;
+    list-style:none;
+    line-height: 5vw;
+}
+
+#circularcursor{
+    background:red;   
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Custom cursor code provided by Matthew Marquise of DEV.to */
