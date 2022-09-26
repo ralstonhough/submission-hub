@@ -14,9 +14,9 @@ ul{
     font-family: helvetica, arial, sans-serif;
     font-size: 3.5vw;
     margin: 0;
-    position:fixed;
-    top:20vw;
-    left:7.5vw;
+    position:absolute;
+    /* top:20vw;
+    left:7.5vw; */
     list-style:none;
     line-height: 5vw;
 }
@@ -25,6 +25,12 @@ a{
     text-decoration: none;
     cursor:none;
     color:black;
+}
+
+#listContainer{
+    margin:0;
+    top:20vw;
+    left:7.5vw;
 }
 
 a:visited{
