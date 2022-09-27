@@ -44,11 +44,12 @@ a{
 }
 
 a:visited{
-    color:grey;
+    color:black;
 }
 
 li{
     transition:300ms;
+    color:black;
 }
 
 li:hover{
