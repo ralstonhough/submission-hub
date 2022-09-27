@@ -8,6 +8,14 @@ document.onmousemove = function(e){
   canvas.style.background = "hsl(0,0%," + map(e.clientY, 0, window.innerHeight, 25, 100) + "%)";
 };
 
+document.onmousedown = function(){
+  circularcursor.style.transform = "scale(1.2)";
+};
+
+document.onmouseup = function(){
+  circularcursor.style.transform = "scale(0.8)";
+};
+
 function map(value, low1, high1, low2, high2) {
   return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
-}
+};

@@ -63,6 +63,8 @@ li:hover{
     border-radius:50%;
     position: absolute;
     z-index: 1;
+    transition: transform 200ms, top 100ms, left 100ms;
+    transition-timing-function: transform ease-in-out;
 }
 
 /* Custom cursor code provided by Matthew Marquise of DEV.to */
