@@ -1,3 +1,13 @@
+#canvas{
+    width:100vw;
+    height:100vh;
+    margin:0;
+    left:0;
+    top:0;
+    position:fixed;
+    background:hsl(0,0,100%);
+}
+
 #mainHeading{
     font-family: Helvetica, Arial, sans-serif;
     margin:0;
