@@ -13,7 +13,7 @@
     margin:0;
     position:fixed;
     left: 7.5vw;
-    top:7.5vw;
+    top:3vw;
     font-size: 7vw;
 }
 html{
@@ -24,9 +24,9 @@ ul{
     font-family: helvetica, arial, sans-serif;
     font-size: 3.5vw;
     margin: 0;
-    position:absolute;
-    top:20vw;
-    left:5vw;
+    position:fixed;
+    top: 13vw;
+    left: 5vw;
     list-style:none;
     line-height: 5vw;
 }
@@ -35,12 +35,6 @@ a{
     text-decoration: none;
     cursor:none;
     color:black;
-}
-
-#listContainer{
-    margin:0;
-    top:20vw;
-    left:7.5vw;
 }
 
 a:visited{
