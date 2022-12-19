@@ -1,6 +1,6 @@
 #canvas{
     width:100vw;
-    height:100vh;
+    height:110vh;
     margin:0;
     left:0;
     top:0;
@@ -23,12 +23,15 @@ html{
 ul{
     font-family: helvetica, arial, sans-serif;
     font-size: 3.5vw;
+    height:70vh;
+    width:100vw;
     margin: 0;
     position:fixed;
     top: 13vw;
     left: 5vw;
     list-style:none;
     line-height: 5vw;
+    overflow:scroll;
 }
 
 a{
@@ -44,10 +47,6 @@ a:visited{
 li{
     transition:300ms;
     color:black;
-}
-
-li:hover{
-    transform: scale(1.1);
 }
 
 #circularcursor{
